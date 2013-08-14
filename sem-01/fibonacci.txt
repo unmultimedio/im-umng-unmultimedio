@@ -1,0 +1,24 @@
+/**
+* DOCUMENTO CREADO POR JULIAN R. FIGUEROA
+* Este obra está bajo una Licencia Creative 
+* Commons Atribución-CompartirIgual 3.0 Unported.
+* CC-BY-SA
+*/
+
+-----------------------
+El Algoritmo Fibonacci
+-----------------------
+
+A continuación el pseudocódigo de la conocida secuencia de fibonacci.
+
+Inicio
+	Entero a,b,c,i
+	a=0
+	b=1
+	Para i=0, i=”n”, i++ //En donde n es la cantidad de iteraciones
+		Imprimir b
+		c=a+b
+		a=b
+		b=c
+	Fin_para
+Fin
