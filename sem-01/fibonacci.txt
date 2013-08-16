@@ -1,8 +1,9 @@
 /**
-* DOCUMENTO CREADO POR JULIAN R. FIGUEROA
-* Este obra está bajo una Licencia Creative 
-* Commons Atribución-CompartirIgual 3.0 Unported.
-* CC-BY-SA
+* DOCUMENT CREATED BY JULIAN R. FIGUEROA
+* about.me/julianrfigueroa
+* This work is under a Creative 
+* Commons License Atribution-ShareAlike 
+* 3.0 Unported. CC-BY-SA
 */
 
 -----------------------
