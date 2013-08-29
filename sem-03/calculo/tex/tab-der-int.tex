@@ -1,0 +1,84 @@
+\documentclass[11pt,twoside,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,amsmath}
+\usepackage[spanish]{babel}
+\DeclareMathOperator{\sech}{sech}
+\DeclareMathOperator{\csch}{csch}
+\begin{document}
+\section*{TABLA DE DERIVADAS E INTEGRALES}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{FUNCIÓN} & \textbf{DERIVADA} & \textbf{INTEGRAL}\\
+\hline
+$y = c$ & $\mathrm{d}y = 0$ & $\int{y} = c{\cdot}x$\\
+\hline
+$y = c{\cdot}x$ & $\mathrm{d}y = c$ & $\int{y} = c{\cdot}\frac{x^2}{2}$\\
+\hline
+$y = x^n$ & $\mathrm{d}y = n{\cdot}x^{(n-1)}$ & $\int{y} = \frac{x^{(n+1)}}{n+1}$\\
+\hline
+$y = x^{-n}$ & $\mathrm{d}y = \frac{-1}{n{\cdot}x^{n-1}}$ & $\int{y} = \frac{x^{-n+1}}{-n+1}$\\
+\hline
+$y = x^{\frac{1}{2}}$ & $\mathrm{d}y = \frac{1}{2{\cdot}x^{\frac{1}{2}}}$ & $\int{y} = \frac{2{\cdot}x^{\frac{3}{2}}}{3}$\\
+\hline
+$y = x^{\frac{a}{b}}$ & $\mathrm{d}y = \frac{a{\cdot}x^{(\frac{a}{b}-1)}}{b}$ & $\int{y} = \frac{x^{(\frac{a}{b}+1)}}{(\frac{a}{b}+1)}$\\
+\hline
+$y = \frac{1}{x}$ & $\mathrm{d}y = \frac{-1}{x^2}$ & $\int{y} = \ln{x}$\\
+\hline
+$y = \sen{x}$ & $\mathrm{d}y = \cos{x}$ & $\int{y} = -\cos{x}$\\
+\hline
+$y = \cos{x}$ & $\mathrm{d}y = -\sen{x}$ & $\int{y} = \sen{x}$\\
+\hline
+$y = \tan{x}$ & $\mathrm{d}y = \frac{1}{\cos^2{x}}$ & $\int{y} = -\ln{\cos{x}}$\\
+\hline
+$y = \cot{x}$ & $\mathrm{d}y = \frac{-1}{\sen^2{x}}$ & $\int{y} = \ln{\sen{x}}$\\
+\hline
+$y = \sec{x}$ & $\mathrm{d}y = \frac{\sen{x}}{\cos^2{x}}$ & $\int{y} = \ln{\tan{(\frac{1}{2}{\cdot}x)}}$\\
+\hline
+$y = \csc{x}$ & $\mathrm{d}y = \frac{-\cos{x}}{\sen^2{x}}$ & $\int{y} = \ln{(\cos{\frac{x}{1-\sen{x}}})}$\\
+\hline
+$y = \sen^{-1}{x}$ & $\mathrm{d}y = \frac{1}{(1-x^2)^\frac{1}{2}}$ & $\int{y} = x{\cdot}\sen^{-1}{(x)} + (1-x^2)^\frac{1}{2}$\\
+\hline
+$y = \cos^{-1}{x}$ & $\mathrm{d}y = \frac{-1}{(1-x^2)^\frac{1}{2}}$ & $\int{y} = x{\cdot}\cos^{-1}{(x)} - (1-x^2)^\frac{1}{2}$\\
+\hline
+$y = \tan^{-1}{x}$ & $\mathrm{d}y = \frac{1}{1+x^2}$ & $\int{y} = x{\cdot}\tan^{-1}{(x)} - \frac{1}{2}{\cdot}\ln{(1+x^2)}$\\
+\hline
+$y = \cot^{-1}{x}$ & $\mathrm{d}y = \frac{-1}{1+x^2}$ & $\int{y} = x{\cdot}\cot^{-1}{(x)} + \frac{1}{2}{\cdot}\ln{(1+x^2)}$\\
+\hline
+$y = \sec^{-1}{x}$ & $\mathrm{d}y = \frac{1}{x{\cdot}(x^2-1)^{\frac{1}{2}}}$ & -\\
+\hline
+$y = \csc^{-1}{x}$ & $\mathrm{d}y = \frac{-1}{x{\cdot}(x^2-1)^{\frac{1}{2}}}$ & -\\
+\hline
+$y = \senh{x}$ & $\mathrm{d}y = \cosh{x}$ & $\int{y} = -\cosh{x}$\\
+\hline
+$y = \cosh{x}$ & $\mathrm{d}y = \senh{x}$ & $\int{y} = \senh{x}$\\
+\hline
+$y = \tanh{x}$ & $\mathrm{d}y = \sech^2{x}$ & $\int{y} = \ln{\cosh{x}}$\\
+\hline
+$y = \coth{x}$ & $\mathrm{d}y = -\csch^2{x}$ & $\int{y} = \ln{\senh{x}}$\\
+\hline
+$y = \sech{x}$ & $\mathrm{d}y = -(\sech{x})\cdot(\tanh{x})$ & -\\
+\hline
+$y = \csch{x}$ & $\mathrm{d}y = -(\csch{x})\cdot(\coth{x})$ & -\\
+\hline
+$y = \ln{x}$ & $\mathrm{d}y = \frac{1}{x}$ & $\int{y} = x{\cdot}\ln{(x)}-x$\\
+\hline
+$y = \log_a{x}$ & $\mathrm{d}y = \frac{1}{x{\cdot}\ln{a}}$ & $\int{y} = x{\cdot}\log_a{(x)}-\frac{1}{\ln{a}}$\\
+\hline
+$y = e^x$ & $\mathrm{d}y = e^x$ & $\int{y} = e^x$\\
+\hline
+$y = a^x$ & $\mathrm{d}y = a^x{\cdot}\ln{a}$ & $\int{y} = \frac{a^x}{\ln{a}}$\\
+\hline
+$y = x^x$ & $\mathrm{d}y = x^x{\cdot}(\ln{(x)}+1)$ & -\\
+\hline
+$y = e^u$ & $\mathrm{d}y = e^u{\cdot}u'$ & -\\
+\hline
+$y = u{\cdot}v$ & $\mathrm{d}y = u'{\cdot}v+v'{\cdot}u$ & $\int{y} = \int{u{\cdot}\mathrm{d}v} + \int{v{\cdot}\mathrm{d}u}$\\
+\hline
+$y = \frac{u}{v}$ & $\mathrm{d}y = \frac{u'{\cdot}v+v'{\cdot}u}{v^2}$ & -\\
+\hline
+$y = u^v$ & $\mathrm{d}y = u^v{\cdot}(v'{\cdot}\ln{(u)}+v{\cdot}\frac{u'}{u})$ & -\\
+\hline
+$y = \log_u{v}$ & $\mathrm{d}y = \frac{v'{\cdot}u{\cdot}\ln{(u)}-u'{\cdot}v{\cdot}\ln{(v)}}{v{\cdot}u{\cdot}\ln^2{u}}$ & -\\
+\hline
+\end{tabular}
+\end{document}
