@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Khale">
+</Property><Property Name="Archivo de la solución" Value="G:\JULIAN\DATA\Artificial Intelligence\UMNG\04 (2009-I)\Introducción a la Computación Gráfica\Proyectos\Organizado2D\Khale\Khale.sln">
+</Property><Property Name="Archivo de opciones de usuario" Value="G:\JULIAN\DATA\Artificial Intelligence\UMNG\04 (2009-I)\Introducción a la Computación Gráfica\Proyectos\Organizado2D\Khale\Khale.suo">
+</Property><Property Name="Date" Value="lunes, 20 de enero de 2014">
+</Property><Property Name="Time" Value="12:17 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Khale.sln" Description="La copia G:\JULIAN\DATA\Artificial Intelligence\UMNG\04 (2009-I)\Introducción a la Computación Gráfica\Proyectos\Organizado2D\Khale\Khale.sln.old del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="" Source="Khale.suo" Description="La copia G:\JULIAN\DATA\Artificial Intelligence\UMNG\04 (2009-I)\Introducción a la Computación Gráfica\Proyectos\Organizado2D\Khale\Khale.suo.old del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="Khale" Source="Khale\Khale.vcproj" Description="Converting project file 'G:\JULIAN\DATA\Artificial Intelligence\UMNG\04 (2009-I)\Introducción a la Computación Gráfica\Proyectos\Organizado2D\Khale\Khale\Khale.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Khale" Source="Khale\Khale.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Khale" Source="Khale\Khale.vcproj" Description="Done converting to new project file 'G:\JULIAN\DATA\Artificial Intelligence\UMNG\04 (2009-I)\Introducción a la Computación Gráfica\Proyectos\Organizado2D\Khale\Khale\Khale.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Khale" Source="Khale\Khale.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Khale.sln" Description="La solución se convirtió correctamente">
+</Event><Event ErrorLevel="3" Project="" Source="Khale.sln" Description="Converted">
+</Event></UpgradeLog>
